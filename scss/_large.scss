@@ -1,0 +1,31 @@
+header, nav, main, footer {
+    max-width: 960rem;
+    //border: 1px solid pink;
+    margin: auto;
+}
+
+#myButton {display: none;}
+ul.menuLinks li a {
+    padding: .4rem 1rem;
+}
+
+ul.menuLinks, ul.menuLinks.open {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul.menuLinks a:hover {
+    background-color: $accentColor;
+}
+
+
+div.allcards{
+section {
+    flex-basis: calc(33.3333% - (($gutter*2)/3));
+}// end section
+}// end allcards
+
+footer div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
