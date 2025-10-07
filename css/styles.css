@@ -352,6 +352,7 @@ header span {
   font-size: 3rem;
   font-weight: 400;
   color: white;
+  padding: 2rem 0rem;
 }
 
 #navWrapper {
@@ -399,7 +400,10 @@ ul.open.menuLinks {
 }
 
 #mainWrapper h1 {
-  padding: 1rem;
+  padding: 0rem 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-size: 3rem;
 }
 
 div.allcards {
@@ -494,6 +498,9 @@ footer p.legal {
   }
   header span {
     padding: 3rem 3rem;
+  }
+  nav {
+    font-size: 1.7rem;
   }
   div.allcards {
     display: flex;

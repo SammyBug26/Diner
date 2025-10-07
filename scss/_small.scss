@@ -37,7 +37,7 @@ span {
         font-size: 3rem;
         font-weight: $normalWeight;
         color: white;
-        
+        padding:2rem 0rem;
        
     }
 }
@@ -88,7 +88,10 @@ ul.open.menuLinks {
 //main section
 #mainWrapper{
   h1{
-  padding: 1rem;
+  padding: 0rem 1.5rem;
+  margin-top: .5rem;
+  margin-bottom: 0;
+  font-size: 3rem;
 }
 }
 div.allcards{
