@@ -489,9 +489,6 @@ footer p.legal {
 }
 
 @media only screen and (min-width: 35rem) {
-  header {
-    padding: 2rem 16px;
-  }
   header h1 {
     font-size: 2rem;
   }
