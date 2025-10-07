@@ -22,19 +22,24 @@ body {
 
 #headerWrapper {
   background-color: $accentColor;
-  color: $fontColor;
+  //color: $fontColor;
 }
 header {
   display: flex;
   align-items: flex-end;
   padding: .5rem $gutter;
   gap: 8px;
-  h1 {
+  figure {
+    padding: 0;
     margin: 0;
-    font-size: 1.2rem;
-    font-weight: $normalWeight;
-    color: white;
   }
+span {
+        font-size: 3rem;
+        font-weight: $normalWeight;
+        color: white;
+        
+       
+    }
 }
 #navWrapper {
   background-color: rgba($accentColor, 0.5);
@@ -154,6 +159,10 @@ footer{
       p{
         font-size: 1.3rem;
         margin: .5rem;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
       }
       ion-icon {
         color: white;

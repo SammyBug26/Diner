@@ -336,7 +336,6 @@ body {
 
 #headerWrapper {
   background-color: #A67563;
-  color: #333;
 }
 
 header {
@@ -345,9 +344,12 @@ header {
   padding: 0.5rem 16px;
   gap: 8px;
 }
-header h1 {
+header figure {
+  padding: 0;
   margin: 0;
-  font-size: 1.2rem;
+}
+header span {
+  font-size: 3rem;
   font-weight: 400;
   color: white;
 }
@@ -456,6 +458,10 @@ footer section.contact p {
   font-size: 1.3rem;
   margin: 0.5rem;
 }
+footer section.contact a {
+  text-decoration: none;
+  color: inherit;
+}
 footer section.contact ion-icon {
   color: white;
   padding-right: 5px;
@@ -488,6 +494,9 @@ footer p.legal {
   }
   header h1 {
     font-size: 2rem;
+  }
+  header span {
+    padding: 3rem 3rem;
   }
   div.allcards {
     display: flex;
